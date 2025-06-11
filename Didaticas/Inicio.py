@@ -14,3 +14,15 @@ numerofloat = 20.22
 nome= "Pedro"
 
 print("Meu nome e :",nome, "meu conhecimento sobre back-end",numerofloat ,"minha idade :",idade)
+
+# Declaração de constante 
+
+PI = 3.14159
+NOME_DA_EMPRESA = "OpenAI"
+
+print("Valor de pi:",PI,"Nome da Empresa:",NOME_DA_EMPRESA)
+
+PI = 4
+print(PI)
+
+print(5//2)
