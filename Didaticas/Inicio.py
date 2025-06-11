@@ -26,3 +26,9 @@ PI = 4
 print(PI)
 
 print(5//2)
+
+#Inserção de inputs
+
+nome_input = input("Digite seu noome:")
+
+print(nome_input)
