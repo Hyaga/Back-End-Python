@@ -51,3 +51,14 @@ print("O valor do numero na divisao e:",numero)
 
 numero **2 #exponencial
 print("O valor do numero exponenciação",numero)
+
+# operadores de identidade
+
+numero_identidade, segundo_numero_identidade = 200, 200
+curso = "Fisica"
+nome_curso = curso
+
+print(curso is nome_curso)
+print(curso is numero_identidade)
+print(numero_identidade is not segundo_numero_identidade)
+print(numero_identidade is segundo_numero_identidade)
