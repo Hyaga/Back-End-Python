@@ -32,3 +32,22 @@ print(5//2)
 nome_input = input("Digite seu noome:")
 
 print(nome_input)
+
+#Inserção de alguns operadores de atribuição
+
+numero = 10
+
+numero +18 #soma
+print("O valor do numero na soma e:",numero)
+
+numero - 8 #subtração
+print("O valor do numero na subtração e :",numero)
+
+numero *2 #multiplicaçao
+print("O valor do numero na multiplicação e : ",numero)
+
+numero / 4 #divisao
+print("O valor do numero na divisao e:",numero)
+
+numero **2 #exponencial
+print("O valor do numero exponenciação",numero)
