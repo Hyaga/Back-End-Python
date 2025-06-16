@@ -62,3 +62,23 @@ print(curso is nome_curso)
 print(curso is numero_identidade)
 print(numero_identidade is not segundo_numero_identidade)
 print(numero_identidade is segundo_numero_identidade)
+
+# formas de usar for 
+
+for i in range(5):
+    print(i)
+    
+nomes = ["Ana", "Bruno", "Carlos"]
+
+for nome in nomes:
+    print(nome)
+
+texto = "Python"
+
+for letra in texto:
+    print(letra)
+
+for i in range(10, 0, -2):
+    print(i)
+
+
