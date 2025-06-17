@@ -35,3 +35,10 @@ print(f"Olá , me chamo {nome}. Eu tenho{idade} anos, trabalho com {profissão} 
 PI = 3.145545
 print(f"Valor de PI editado : {PI:2f}")
 print(f"Valor de PI editado : {PI:10.2f}")
+
+mensagem = f'''Olá , me chamo {nome}.
+ Eu tenho{idade} anos, 
+ trabalho com {profissão} e estou cursando {materia}
+'''
+
+print(mensagem)
