@@ -41,3 +41,20 @@ lojas = ["papel","cigarro","bebida","dinheiro"]
 
 for indice_lista, loja in enumerate(lojas):
    print(f"{indice_lista}: {loja}")
+
+#Adicionando valores de uma lista em outra lista, e modificando os mesmos
+
+numeros_normais = [12,22,2,33,4,54,6,334,0,99,34,26]
+numeros_pares = []
+
+for numero in numeros_normais:
+    if numero % 2 == 0:
+        numeros_pares.append(numero) # o append que adicionou elementos da lista em outra 
+
+numero_elevados_quadrado = []
+
+for numero in numeros_normais:
+    numero_elevados_quadrado.append(numero ** 2)
+
+print(numeros_pares)
+print(numero_elevados_quadrado)
