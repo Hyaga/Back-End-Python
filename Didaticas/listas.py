@@ -21,3 +21,23 @@ primeira_matriz = [
 print(primeira_matriz[0])
 print(primeira_matriz[0][0])
 print(primeira_matriz[1][2])
+
+#lista fateada e como chama 
+lista_fateada = ["p","y","t","h","o","n"]
+
+print(lista_fateada[:2])
+print(lista_fateada[2:])
+print(lista_fateada[:-1]) # exclui um item da lista 
+print(lista_fateada[0:2])
+print(lista_fateada[::-1]) # inverte aa lista 
+
+#lista em for 
+for lista_fateada in lista_fateada:
+    print(lista_fateada)
+
+#lista emunerate 
+
+lojas = ["papel","cigarro","bebida","dinheiro"]
+
+for indice_lista, loja in enumerate(lojas):
+   print(f"{indice_lista}: {loja}")
