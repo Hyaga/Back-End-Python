@@ -67,3 +67,11 @@ print(letras)  # {"b", "a", "c", "x", "i"}
 
 carros = set(("palio", "gol", "celta", "palio"))
 print(carros)  # {"gol", "celta", "palio"}
+
+# Função map
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+
+resultado = map(lambda x, y: x + y, a, b) #lambda e uma função vazia, o metodo map e dividido em duas instancias aonde declaramos o que vai acontecer na primeira instancia  que no caso do exemplo e o x + y e na segunda instancia definida pelas coisas que ven depois da "," são os dados que serao atribuidos ou seja o x = a e y = b x+y e = 4+1
+print(list(resultado))
