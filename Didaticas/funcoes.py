@@ -15,3 +15,15 @@ exibir_mensagem()
 exibir_mensagem_2(nome="Filipe")
 exibir_mensagem_3()
 exibir_mensagem_3(nome="Dantas")
+
+# usando uma função dentro de outra função
+def somar(a, b):
+    return a + b
+
+
+def exibir_resultado_soma(a, b, funcao): 
+    resultado = funcao(a, b)
+    print(f"O resultado da operação {a} + {b} = {resultado}")
+
+
+exibir_resultado_soma(10, 10, somar) 
