@@ -17,13 +17,19 @@ exibir_mensagem_3()
 exibir_mensagem_3(nome="Dantas")
 
 # usando uma função dentro de outra função
-def somar(a, b):
-    return a + b
+def somar(numero_a, numero_b):
+    return numero_a + numero_b
 
+def subtrair(numero_a,numero_b):
+    return numero_a - numero_b
 
-def exibir_resultado_soma(a, b, funcao): 
-    resultado = funcao(a, b)
-    print(f"O resultado da operação {a} + {b} = {resultado}")
+def exibir_resultado_soma(numero_a, numero_b, funcao): 
+    resultado = funcao(numero_a, numero_b)
+    print(f"O resultado da operação {numero_a} + {numero_b} = {resultado}")
 
+# Lê os valores do teclado e converte para int
+numero_a = int(input())
+numero_b = int(input())
 
-exibir_resultado_soma(10, 10, somar) 
+# Chama a função
+exibir_resultado_soma(numero_a, numero_b, subtrair)
